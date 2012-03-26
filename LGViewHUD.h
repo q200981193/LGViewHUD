@@ -30,11 +30,11 @@ typedef enum {
 	UIActivityIndicatorView* activityIndicator;
 }
 /** The image displayed at the center of the HUD. Default is nil. */
-@property (readwrite, retain) UIImage* image;
+@property (readwrite) UIImage* image;
 /** The top text of the HUD. Shortcut to the text of the topLabel property. */
-@property (readwrite, retain) NSString* topText;
+@property (readwrite) NSString* topText;
 /** The bottom text of the HUD. Shortcut to the text of the bottomLabel property. */
-@property (readwrite, retain) NSString* bottomText;
+@property (readwrite) NSString* bottomText;
 /** The top label of the HUD. (So that you can adjust its properties ...) */
 @property (readonly) UILabel* topLabel;
 /** The bottom label of the HUD. (So that you can adjust its properties ...) */
